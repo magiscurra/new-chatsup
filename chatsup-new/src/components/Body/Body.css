@@ -1,0 +1,93 @@
+.body {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+}
+
+.slok {
+    display: flex;
+    justify-content: center; /* Centering the slok */
+    margin: 0 auto; /* Center the slok container */
+}
+
+.sloka {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    color: #1089B1;
+    margin-left: 20px;
+}
+
+.sample {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #084153;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    align-items: center; /* Center buttons */
+    margin-top: 30px;
+}
+
+.buttons p {
+    margin-left: 0; /* Reset margin for smaller screens */
+}
+
+.btn2 {
+    height: 45px;
+    width: 240px;
+    background: #1089B1;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    margin-bottom: 10px; /* Space between buttons */
+}
+
+.btn1 {
+    height: 60px;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+}
+
+
+@media (max-width: 66px) {
+    .slok {
+        flex-direction: column; 
+        margin-left: 250px; 
+    }
+
+    .sloka {
+        font-size: 22px; 
+        margin-left: 0; 
+    }
+
+    .buttons {
+        margin-left: 0; 
+    }
+
+    .btn2, .btn1 {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .sloka {
+        font-size: 20px; 
+    }
+
+    .sample {
+        font-size: 12px; 
+    }
+
+    .btn2, .btn1 {
+        height: 40px; 
+    }
+}

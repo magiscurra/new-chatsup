@@ -1,0 +1,239 @@
+body {
+    font-family: Poppins;
+    font-weight: 500; 
+}
+.Parent {
+    background-color: rgb(219, 222, 224);
+    height: 550px;
+    width: 90%; 
+    max-width: 1300px; 
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin: 22px auto; 
+}
+.Child {
+    background-color: rgba(14, 74, 124, 0.979);
+    height: 450px;
+    width: 100%;
+    max-width: 450px;
+    margin: 50px auto; 
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.edit{
+    width: 15px;
+    margin: 5px;
+    margin-top: 17px;
+    color: white;
+}
+.icon{
+    width: 30px;
+    margin: 5px;
+    margin-top: 20px;
+}
+.text{
+    color: white;
+    margin: 5px;
+    margin-top: 20px;
+}
+.nickName{
+    display: flex;
+    align-items: center;
+    margin: 12px;
+    margin:0 155px;
+    
+}
+.container p{
+    color: white;
+    font-size: 14px;
+}
+.buttons{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0;
+}
+.male{
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 3px;
+    background-color: rgb(41, 102, 158);
+    color: rgb(156, 154, 151);
+}
+.male:hover{
+    background: white;
+    color: rgba(14, 74, 124, 0.979);
+}
+
+
+.female{
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 3px;
+    background-color: rgb(41, 102, 158);
+    color: rgb(156, 154, 151);
+}
+.female:hover{
+    background: white;
+    color: rgba(14, 74, 124, 0.979);
+}
+.other{
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 3px;
+    background-color: rgb(41, 102, 158);
+    color: rgb(156, 154, 151);
+}
+.other:hover{
+    background: white;
+    color: rgba(14, 74, 124, 0.979);
+}
+button:hover, button.active {
+    background: white;
+    color: rgba(14, 74, 124, 0.979);
+}
+.container{
+    align-items: center;
+    text-align: center;
+}
+.message p{
+    color: rgba(14, 74, 124, 0.979);
+    font-size: 9px;
+    font-weight: 400;
+}
+.message{
+    display: flex;
+    margin: 0 95px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 250px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+.love{
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 3px;
+    background-color: rgb(41, 102, 158);
+    color: rgb(156, 154, 151);
+}
+.love:hover{
+    background: white;
+    color: rgba(14, 74, 124, 0.979);
+}
+.music{
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 3px;
+    background-color: rgb(41, 102, 158);
+    color: rgb(156, 154, 151);
+}
+.music:hover{
+    background: white;
+    color: rgba(14, 74, 124, 0.979);
+}
+.game{
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 3px;
+    background-color: rgb(41, 102, 158);
+    color: rgb(156, 154, 151);
+}
+.game:hover{
+    background: white;
+    color: rgba(14, 74, 124, 0.979);
+}
+.add{
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 3px;
+    background-color: rgb(41, 102, 158);
+    color: rgb(156, 154, 151);
+}
+.add:hover{
+    background: white;
+    color: rgba(14, 74, 124, 0.979);
+}
+.movie{
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 3px;
+    background-color: rgb(41, 102, 158);
+    color: rgb(156, 154, 151);
+}
+.movie:hover{
+    background: white;
+    color: rgba(14, 74, 124, 0.979);
+}
+.buttons2{
+    margin-right: 15px;
+}
+.end-btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: #FF686B;
+    color: white;
+    margin-top: 10px;
+}
+.end-btn2{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: #1089b1;
+    color: white;
+    margin-top: 10px;
+    margin: 5px;
+}
+
+@media (max-width: 1368px) {
+    .Parent {
+        height: auto; 
+        width: 90%; 
+    }
+
+    .Child { 
+        margin: 20px auto; 
+        width: 100%;
+        height: 100%;  
+    }
+}
+
+@media (max-width: 386px) {
+    .Parent {
+        margin: 1px; 
+        height: 470px;
+        width: 365px;
+    }
+    .Child {
+        width: 365px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .message{
+        margin: 0 55px;
+    }
+    .nickName{
+        margin:0 105px;
+    }
+    
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+

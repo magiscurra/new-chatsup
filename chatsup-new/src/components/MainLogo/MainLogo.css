@@ -1,0 +1,24 @@
+img {
+    max-height: 170px; 
+    max-width: 200px; 
+    height: auto; 
+    width: auto; 
+    margin-top: 10vh; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+}
+
+@media (min-width: 768px) {
+    img {
+        margin-top: 110px;
+        width: 50%; 
+    }
+}
+
+@media (min-width: 1200px) {
+    img {
+        margin-top: 110px;
+         width: 30%; 
+    }
+}

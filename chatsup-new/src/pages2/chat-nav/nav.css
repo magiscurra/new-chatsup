@@ -1,0 +1,22 @@
+
+.img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.Sec-nav{
+    background-color: #053F73;
+}
+.nav-left{
+    width: 50%;
+    display: flex;
+}
+.arrow{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.content{
+    color: white;
+    margin-left: 20px;
+}
